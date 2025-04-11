@@ -11,31 +11,31 @@ O projeto Proxy gera uma lista de proxies gratuitas e seguras, testadas e valida
 
 Siga os passos abaixo para instalar e executar o projeto:
 
-    Clone o repositório
-    ```bash
-    git clone https://github.com/bluurw/prox-y.git
-    ```
+Clone o repositório
+```bash
+git clone https://github.com/bluurw/prox-y.git
+```
 
-    Entre na pasta do projeto
-    ```bash
-    cd prox-y
-    ```
+Entre na pasta do projeto
+```bash
+cd prox-y
+```
 
-    Crie um ambiente virtual (opcional, mas recomendado)
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
+Crie um ambiente virtual (opcional, mas recomendado)
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
-    Instale as dependências
-    ```bash
-    pip install -r requirements.txt
-    ```
+Instale as dependências
+```bash
+pip install -r requirements.txt
+```
 
-    Execute o código principal
-    ```bash
-    python main.py
-    ```
+Execute o código principal
+```bash
+python main.py
+```
 
 ## **TO DO**
 
