@@ -39,43 +39,27 @@ python main.py
 
 ## **TO DO**
 
-    Desenvolver o módulo de teste de proxy Implementar funcionalidade para testar a conectividade de cada proxy, verificando se estão ativas e operacionais.
+Desenvolver o módulo de teste de proxy Implementar funcionalidade para testar a conectividade de cada proxy, verificando se estão ativas e operacionais.
 
-    Incluir limitações de resultado:
+Incluir limitações de resultado:
+    Quantidade: Permitir limitar o número de proxies retornados.
 
-        Quantidade: Permitir limitar o número de proxies retornados.
+    Local (país/região): Filtrar proxies por localização geográfica.
 
-        Local (país/região): Filtrar proxies por localização geográfica.
+    Tipo de protocolo: Selecionar entre HTTP, HTTPS, SOCKS, etc.
 
-        Tipo de protocolo: Selecionar entre HTTP, HTTPS, SOCKS, etc.
+    Nível de anonimato: Classificar proxies por níveis (alta, média, baixa).
 
-        Nível de anonimato: Classificar proxies por níveis (alta, média, baixa).
+    Velocidade/tempo de resposta: Incorporar filtros para proxies rápidas e estáveis.
 
-        Velocidade/tempo de resposta: Incorporar filtros para proxies rápidas e estáveis.
+    Data de verificação: Incluir a data/hora da última validação do proxy.
 
-        Data de verificação: Incluir a data/hora da última validação do proxy.
-
-        (Outros filtros poderão ser adicionados conforme a necessidade do projeto.)
+    (Outros filtros poderão ser adicionados conforme a necessidade do projeto.)
 
 ## **Compatibilidade**
-
-    Linux: OK
-
-    Windows: Não testado
-
-    Mac: Não testado
-
-## **Contribuição**
-
-Contribuições são sempre bem-vindas! Se você deseja:
-
-    Melhorar o código,
-
-    Adicionar novas funcionalidades ou
-
-    Corrigir bugs,
-
-Sinta-se à vontade para abrir uma issue ou enviar um pull request. Qualquer sugestão ajudará a tornar o projeto mais robusto e útil para a comunidade.
+Linux: OK
+Windows: Não testado
+Mac: Não testado
 
 ## **Licença**
 
