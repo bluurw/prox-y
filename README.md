@@ -1,30 +1,43 @@
-Proxy
+[![License](https://img.shields.io/badge/license-MIT-_red.svg)](https://opensource.org/licenses/MIT)
+[![Contribuitions Welcome](https://img.shields.io/badge/contribuitions-welcome-brightgreen.svg?style=flat)](https://github.com/bluurw/carbon/issues)
 
-Descrição
+# **Proxy**
+
+## **Descrição**
 
 O projeto Proxy gera uma lista de proxies gratuitas e seguras, testadas e validadas. Ele coleta, filtra e valida dados de fontes diversas para oferecer aos usuários proxies confiáveis para uso em diferentes contextos, incluindo automação, web scraping e navegação anônima.
 
-Como Instalar
+## **Como Instalar**
 
 Siga os passos abaixo para instalar e executar o projeto:
 
     Clone o repositório
+    ```bash
     git clone https://github.com/bluurw/prox-y.git
+    ```
 
     Entre na pasta do projeto
+    ```bash
     cd prox-y
+    ```
 
     Crie um ambiente virtual (opcional, mas recomendado)
+    ```bash
     python3 -m venv venv
     source venv/bin/activate
+    ```
 
     Instale as dependências
+    ```bash
     pip install -r requirements.txt
+    ```
 
     Execute o código principal
+    ```bash
     python main.py
+    ```
 
-TO DO
+## **TO DO**
 
     Desenvolver o módulo de teste de proxy Implementar funcionalidade para testar a conectividade de cada proxy, verificando se estão ativas e operacionais.
 
@@ -44,7 +57,7 @@ TO DO
 
         (Outros filtros poderão ser adicionados conforme a necessidade do projeto.)
 
-Compatibilidade
+## **Compatibilidade**
 
     Linux: OK
 
@@ -52,7 +65,7 @@ Compatibilidade
 
     Mac: Não testado
 
-Contribuição
+## **Contribuição**
 
 Contribuições são sempre bem-vindas! Se você deseja:
 
@@ -62,8 +75,8 @@ Contribuições são sempre bem-vindas! Se você deseja:
 
     Corrigir bugs,
 
-sinta-se à vontade para abrir uma issue ou enviar um pull request. Qualquer sugestão ajudará a tornar o projeto mais robusto e útil para a comunidade.
+Sinta-se à vontade para abrir uma issue ou enviar um pull request. Qualquer sugestão ajudará a tornar o projeto mais robusto e útil para a comunidade.
 
-Licença
+## **Licença**
 
 Este projeto é licenciado sob a Licenca do MIT.
