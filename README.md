@@ -52,9 +52,9 @@ Incluir limitações de resultado:
 - (Outros filtros poderão ser adicionados conforme a necessidade do projeto.)
 
 ## **Compatibilidade**
-Linux: OK
-Windows: Não testado
-Mac: Não testado
+- Linux: OK
+- Windows: Não testado
+- Mac: Não testado
 
 ## **Licença**
 
