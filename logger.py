@@ -1,9 +1,11 @@
 import datetime
 import json
+import os
 
-def jsonWrite(proxy, file='proxy-info.json', history=False):
+def jsonWrite(proxy, save_file, history=False):
+    temp_file = save_file + '.tmp'
     try:
-        with open(file, 'r') as f:
+        with open(save_file, 'r') as f:
             data = json.load(f)
     # se nao existe, abre um zerado
     except (FileNotFoundError, json.JSONDecodeError):
@@ -16,7 +18,18 @@ def jsonWrite(proxy, file='proxy-info.json', history=False):
                 item['updated'] = proxy['updated']
         else:
             data.append(proxy)
-    with open(file, 'w') as f:
-        json.dump(data, f, indent=4)
-    
-    return f'Proxy inserted in {file}'
+    try:
+        with open(temp_file, 'w') as f:
+            json.dump(data, f, indent=4)
+        os.replace(temp_file, save_file)
+    except Exception as e:
+        if os.path.exists(temp_file):
+            os.remove(temp_file)
+
+def jsonRead(file_path):
+    try:
+        with open(file_path, 'r') as f:
+            data = json.load(f)
+        return data
+    except Exception as err:
+        return False, err

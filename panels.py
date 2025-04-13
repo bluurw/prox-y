@@ -20,9 +20,11 @@ PROXY_LIST_GENERATOR
     return option
 
 def about_me():
+    print('ABOUT_ME')
     print('The macaws above my head dont let me think.')
-    print('~telegram archive')
+
+    print('#SOCIAL')
     print('Github: https://github.com/bluurw')
-    print('Telegram: t.me/mk_Directory')
+    print('Telegram: https://t.me/mk_Directory')
     print()
     input('...PRESS ANY KEY...')
